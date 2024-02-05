@@ -16,39 +16,36 @@ Pretrained large language models (LLMs) exhibit exceptional general language pro
 
 ## Dependences
 
-* `torch`: tested on v1.10.1+cu111
-* `transformers`: tested on v4.21.2 (the LLaMa integration currently requires a main install from source and `sentencepiece`)
-* `datasets`: tested on v1.17.0
-* `Huggingface`:
+* `torch`: tested on v2.0.1+cu117
+* `transformers`: tested on v4.35.0 (the LLaMa integration currently requires a main install from source and `sentencepiece`)
+* `datasets`: tested on v2.14.6
+* `huggingface-hub`: tested on v0.16.4
 
 All binarization process and experiments were run on a single 80GB NVIDIA A100. However, all the process can also be conducted on a single 24GB NVIDIA 3090 Ti when the model's parameter is under 70B.
-
-## Installation
-
-
 
 ## LLMs Binarization
 
 #### Binarization for OPT families
 
 ```
-
+python3 run.py facebook/opt-6.7b c4 braq --blocksize 128 --salient_metric hessian
 ```
-
 
 
 #### Binarization for LLaMA families
 
 ```
-
+python3 run.py meta-llama/Llama-2-7b-hf c4 braq --blocksize 128 --salient_metric hessian
 ```
-
-
+or
+```
+python3 run.py huggyllama/llama-7b c4 braq --blocksize 128 --salient_metric hessian
+```
 
 #### Binarization for Vicuna families (Instruction Fine-tuning Models)
 
 ```
-
+python3 run.py lmsys/vicuna-7b-v1.5 c4 braq --blocksize 128 --salient_metric hessian
 ```
 
 #### 
