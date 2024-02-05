@@ -2,9 +2,9 @@
 
 ![intuition](imgs/author.png)
 
-**^1^The University of Hong Kong ^2^Beihang University ^3^ETH  Zürich **
+**^1^The University of Hong Kong ^2^Beihang University ^3^ETH  Zürich**
 
-![intuition](imgs/main_2.pdf)
+![intuition](imgs/main.png)
 
 ## Abstract
 
@@ -65,9 +65,9 @@ All binarization process and experiments were run on a single 80GB NVIDIA A100. 
 
 - We also evaluated the performance of *BiLLM* on PTB and C4 datasets. 
 
-![intuition](imgs/ptbandc4.pdf)
+![intuition](imgs/ptb1.png)
 
-![intuition](imgs/ptbandc4_1.pdf)
+![intuition](imgs/ptb2.png)
 
 - We further evaluated *BiLLM* on 7 zero-shot dataset to give extensive insight on  binarization LLMs
 
