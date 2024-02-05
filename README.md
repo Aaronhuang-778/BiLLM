@@ -2,7 +2,7 @@
 
 ![intuition](imgs/author.png)
 
-**^1^The University of Hong Kong ^2^Beihang University ^3^ETH  Zürich**
+**<sup>1</sup>The University of Hong Kong <sup>2 </sup>Beihang University <sup> 3</sup>ETH  Zürich**
 
 ![intuition](imgs/main.png)
 
