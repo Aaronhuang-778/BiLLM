@@ -79,6 +79,13 @@ python3 run.py lmsys/vicuna-7b-v1.5 c4 braq --blocksize 128 --salient_metric hes
 If you find *BiLLM* is useful and helpful to your work, please kindly cite this paper:
 
 ```
-
+@misc{huang2024billm,
+      title={BiLLM: Pushing the Limit of Post-Training Quantization for LLMs}, 
+      author={Wei Huang and Yangdong Liu and Haotong Qin and Ying Li and Shiming Zhang and Xianglong Liu and Michele Magno and Xiaojuan Qi},
+      year={2024},
+      eprint={2402.04291},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
 
