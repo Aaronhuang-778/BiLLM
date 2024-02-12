@@ -14,7 +14,7 @@ Pretrained large language models (LLMs) exhibit exceptional general language pro
 
 - [2024/2] *BiLLM* source code is open now!
 
-## Dependences
+## Dependencies
 
 * `torch`: tested on v2.0.1+cu117
 * `transformers`: tested on v4.35.0 (the LLaMa integration currently requires a main install from source and `sentencepiece`)
