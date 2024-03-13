@@ -1,4 +1,4 @@
-# BiLLM: Pushing the Limit of Post-Training Quantization for LLMs
+# BiLLM: Pushing the Limit of Post-Training Quantization for LLMs [[PDF]](https://arxiv.org/pdf/2402.04291.pdf)
 
 ![intuition](imgs/author.png)
 
@@ -21,7 +21,7 @@ Pretrained large language models (LLMs) exhibit exceptional general language pro
 * `datasets`: tested on v2.14.6
 * `huggingface-hub`: tested on v0.16.4
 
-All binarization process and experiments were run on a single 80GB NVIDIA A100. However, all the process can also be conducted on a single 24GB NVIDIA 3090 Ti when the model's parameter is under 70B.
+All binarization processes and experiments were run on a single 80GB NVIDIA A100. However, all the process can also be conducted on a single 24GB NVIDIA 3090 Ti when the model's parameter is under 70B.
 
 ## LLMs Binarization
 
