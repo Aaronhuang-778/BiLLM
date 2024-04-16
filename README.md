@@ -74,6 +74,15 @@ python3 run.py lmsys/vicuna-7b-v1.5 c4 braq --blocksize 128 --salient_metric hes
 
 ![intuition](imgs/vicuna.png)
 
+## Related Project
+[GPTQ: Accurate Post-training Compression for Generative Pretrained Transformers](https://github.com/IST-DASLab/gptq)
+
+[PB-LLM: Partially Binarized Large Language Models]([https://github.com/IST-DASLab/gptq](https://github.com/hahnyuan/PB-LLM))
+
+[AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration](https://github.com/mit-han-lab/llm-awq)
+
+
+
 ## Citation
 
 If you find *BiLLM* is useful and helpful to your work, please kindly cite this paper:
